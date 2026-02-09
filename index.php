@@ -111,6 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register_btn'])) {
             </div>
         </div>
     </nav>
+    <!-- hello guysss -->
 
     <section id="home" class="pt-32 pb-20 bg-gradient-to-br from-blue-50 to-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
