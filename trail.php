@@ -39,8 +39,15 @@
         <input type="email" name="email" placeholder="Enter email" required>
         <button type="submit" name="submit">Submit</button>
     </form>
-
-   
+    <?php
+    if (isset($_POST['submit']))
+    {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        echo "<p>Name: $name</p>";
+        echo "<p>Email: $email</p>";
+    }
+    ?>
 </div>
 <!-- kuch bhi nahi hai -->
 </body>
